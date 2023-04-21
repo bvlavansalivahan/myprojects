@@ -10,105 +10,82 @@
 </head>
 
 <body>
-    <!--........................start of page 1...........................-->
     <div id="sectionHome">
         <center>
             <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="image " />
         </center>
         <h1 class="heading">My projects</h1>
-        <p class="para1">These are a few of my static website that I have <br>developed using HTML,CSS,Bootstrap</p>
+        <p class="para1">These are a few of my websites that I have <br>developed</p>
         <div class="container">
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column">
+                    <div>
+                        <a href="https://lavan-tic-tac-toe.netlify.app" >
+                            <div>
+                                <img src="./public/images/todolist.png"  class="image1"/>
+                                <p class="text-center"><b>To-do-List</b></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div >
+                        <a href="https://lavantodolist.netlify.app" >
+                            <div>
+                                <img src="./public/images/todolist1.png" class="image1" />
+                                <p class="text-center"><b>To-do-List</b></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <div >
+                        <a href="https://lavanfilters.netlify.app" >
+                            <div>
+                                <img src="./public/images/filters.png" class="image1" />
+                                <p class="text-center"><b>filters</b></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            <!-- ..... -->
+            <div class="container">
                 <div class="d-flex flex-row">
-                    <!--..technology figure..--><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="image1" onclick="display('sectionTech')" />
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="image1" onclick="display('sectionDiwali')" />
-                </div>
-                <div class="d-flex flex-row">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="image1" onclick="display('sectionFood')" />
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="image1" onclick="display('sectionPaper')" />
-                </div>
+                    <div class="d-flex flex-column">
+                        <div>
+                            <a href="https://lavanwikipedia.ccbp.tech/" >
+                                <div>
+                                    <img src="./public/images/wikipedia.png"  class="image1"/>
+                                    <p class="text-center"> <b>Wikipedia</b> </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="d-flex flex-column">
+                        <div >
+                            <a href="https://unique-pie-63aae4.netlify.app/" >
+                                <div>
+                                    <img src="./public/images/speechtotext.png" class="image1" />
+                                    <p class="text-center"><b>Speech-to-Text</b></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div >
+                            <a href="https://lavajobbyapp.ccbp.tech/" >
+                                <div>
+                                    <img src="./public/images/jobbyApp.png" class="image1" />
+                                    <p class="text-center"><b>JobbyApp</b></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
             </div>
-        </div>
-    </div>
-    <!--.....................END PAGE......................-->
-    <!--.....................START PAGE TECHNOLOGY..........-->
-    <div id="sectionTech">
-        <div class="bgi d-flex flex-column justify-content-end">
-            <div class="card">
-                <h1 class="heading">Advanced technologies</h1>
-                <p class="para">Machinery and equipment developed from the application of scientific knowledge</p>
-                <div>
-
-                    <button class="button btn">Learn more</button>
-                    <button class="button btn btn-primary" onclick="display('sectionHome')">Back</button>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end page TECHNOLOGY............................-->
-    <!-- start page diwali........................................-->
-    <div id="sectionDiwali">
-        <div class="diwali-top-section">
-            <h1 class="diwali-top-section-heading">
-                Celebrate Diwali with your friends
-            </h1>
-        </div>
-        <div class="diwali-bottom-section">
-            <div class="d-flex flex-row justify-content-center">
-                <div class="diwali-card-item">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
-                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
-                    <p class="diwali-card-price">Rs 369</p>
-                </div>
-
-                <div class="diwali-card-item">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
-                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
-                    <p class="diwali-card-price">Rs 50</p>
-                </div>
-            </div>
-            <div class="d-flex flex-row justify-content-center">
-                <div class="diwali-card-item">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
-                    <h1 class="diwali-card-name">Sparklers</h1>
-                    <p class="diwali-card-price">Rs 150</p>
-                </div>
-
-                <div class="diwali-card-item">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
-                    <h1 class="diwali-card-name">Fire Cracker</h1>
-                    <p class="diwali-card-price">Rs 560</p>
-                </div>
-            </div>
-            <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
-        </div>
-    </div>
-    <!-- end diwali...........................-->
-    <!--Start food...........................-->
-    <div id="sectionFood">
-        <div class="bgif d-flex flex-column justify-content-end">
-            <div class="foodf">
-                <h1 class="headingf">Happy Meals</h1>
-                <p>Discover the best foods over the 1,000 restaurants</p>
-                <button class="buttonf">Book Now</button>
-                <button class="buttonf" onclick="display('sectionHome')">Back</button>
-            </div>
-        </div>
-    </div>
-    <div id="sectionPaper">
-        <div class="bgip d-flex flex-column justify-content-end">
-            <div class="cardp">
-                <p class="headp">NEWS OF THE DAY</p>
-                <h1 class="headp">iB Cricket announces world's first Virtual Reality Cricket League</h1>
-                <p class="parap">iB cricket and Viu together have announced the world's first vrtual reality cricket league fraturing 12 international cricketers, who will be computing against each other for iB cret super over League in Mumbai. Iconic cricketers like virendra Shewag, Suresh Raina, Brendon McCullun will be computing in this league</p>
-                <button class="buttonp">Read more</button>
-                <button class="buttonp" onclick="display('sectionHome')">Back</button>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
-</body>
-
-
-</html>
+            
